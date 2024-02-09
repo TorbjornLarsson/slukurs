@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author">SLU {{creator}}</dcvalue>
+  <dcvalue element="date" qualifier="issued">2022</dcvalue>
+{{#sluids}}
+  <dcvalue element="identifier" qualifier="govdoc">{{sluid}}</dcvalue>
+{{/sluids}}
+  <dcvalue element="description" qualifier="none" language="sv_SE">Utbildningsplaner från Slukurs.</dcvalue>
+{{#progs}}
+  <dcvalue element="relation" qualifier="none" language="sv_SE">Programkod {{Programkod}}, {{Program sve}}, version {{version}}.</dcvalue>
+{{/progs}}
+  <dcvalue element="description" qualifier="sponsorship" language="sv_SE">SLU</dcvalue>
+  <dcvalue element="language" qualifier="iso" language="sv_SE">other</dcvalue>
+  <dcvalue element="publisher" qualifier="none" language="sv_SE">SLU</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="sv_SE">utbildningsplan</dcvalue>
+  <dcvalue element="title" qualifier="none" language="sv_SE">{{itemtitle}}</dcvalue>
+  <dcvalue element="type" qualifier="none" language="sv_SE">Dataset</dcvalue>
+</dublin_core>

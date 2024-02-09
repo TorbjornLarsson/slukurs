@@ -1,0 +1,4 @@
+INFO:root:Namespace(email='torbjorn.larsson@slu.se', fpath='/home/torbjorn/test_harvest_utbildningsplaner', dpath='/var/data1/dspace/dspace', target='mål', ctype='utbildningsplaner', creator=' ')
+INFO:root:Arkivbildare: ['utbildningsplaner', 'ua']
+INFO:root:Arkivbildare: 20.500.12703/4128
+INFO:root:['/var/data1/dspace/dspace/bin/dspace', 'import', '-a', '-e', 'torbjorn.larsson@slu.se', '-c', '20.500.12703/4128', '-s', '/home/torbjorn/test_harvest_utbildningsplaner/ua/utbildningsplaner_ua', '-m', '/home/torbjorn/test_harvest_utbildningsplaner/ua/utbildningsplaner_ua/mapfile_ua']

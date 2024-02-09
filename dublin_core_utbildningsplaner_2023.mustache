@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author">SLU ua</dcvalue>
+  <dcvalue element="date" qualifier="issued">2023</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="sv_SE">Utbildningsplaner från Slukurs per gällandeår.</dcvalue>
+  <dcvalue element="description" qualifier="sponsorship" language="sv_SE">SLU</dcvalue>
+  <dcvalue element="description" qualifier="none" language="sv_SE">Utbildningsplan filkod: programkod.gällandeår.version</dcvalue>
+   <dcvalue element="description" qualifier="none" language="sv_SE">Utbildningens beskrivning: Programkod, Benämning, filkod, utbildningsplanens version.</dcvalue>
+  {{#dictjs}}
+  <dcvalue element="description" qualifier="none" language="sv_SE">{{metadata}}</dcvalue>
+  {{/dictjs}}
+  <dcvalue element="language" qualifier="iso" language="sv_SE">other</dcvalue>
+  <dcvalue element="publisher" qualifier="none" language="sv_SE">SLU</dcvalue>
+  {{#programs}}
+  <dcvalue element="relation" qualifier="none" language="sv_SE">Utbildningsplan {{Programkod}}, {{Benamning}}, filkod {{filkod}}, Version {{Version}}.</dcvalue>
+  {{/programs}}
+  {{#versions}}
+  <dcvalue element="identifier" qualifier="uri">{{sluid}}</dcvalue>
+  {{/versions}}
+  <dcvalue element="subject" qualifier="none" language="sv_SE">Utbildningsplan</dcvalue>
+  <dcvalue element="title" qualifier="none" language="sv_SE">{{itemtitle}}</dcvalue>
+  <dcvalue element="type" qualifier="none" language="sv_SE">Dataset</dcvalue>
+</dublin_core>
